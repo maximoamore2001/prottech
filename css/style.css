@@ -459,10 +459,12 @@ ul.conat_info li a:hover {
 
 /** end banner section **/
 
+
+
 .titlepage h2 {
+     margin-top: 10%;
      font-size: 50px;
      color: #da8a21;
-     line-height: 45px;
      font-weight: bold;
      padding: 0;
 }
@@ -525,7 +527,7 @@ ul.conat_info li a:hover {
 /** service section **/
 
 .service {
-     background-color: #494949;
+     background-color: grey;
      margin-top: 80px;
      padding: 90px 0;
 }
@@ -542,54 +544,30 @@ ul.conat_info li a:hover {
      padding-top: 20px;
 }
 
-.service_main {
-     display: flex;
-     flex-wrap: wrap;
-     text-align: center;
-}
 
 .service_box {
      text-align: center;
-     width: 16.3%;
-     margin-top: 30px !important;
 }
 
-.service_box i {
-     display: block;
-     border-radius: 1000px;
-     background-color: black;
-     font-size: 40px;
-     padding: 15%;
+.service_box img {
+     width: 100%;
+     background-color: white;
+     border: solid 2px #fe7506;
+     border-radius: 5px;
+}
+.service h2{
      color: white;
 }
-
-
-.service_box h4 {
+.service_box h4{
      color: white;
      font-size: 17px;
      margin-top: 25px;
-     padding: 0 1%;
      font-weight: 500;
      text-align: center;
 }
 
 .service_box h4:hover {
      color: #da8a21;
-}
-
-
-.yell_colo i {
-     background-color: #fed806;
-}
-
-
-.yelldark_colo i {
-     background-color: #fe7506;
-}
-
-.service .read_more {
-     margin: 0 auto;
-     padding-top: 70px;
 }
 
 
@@ -615,6 +593,10 @@ ul.conat_info li a:hover {
      margin: 0 50px;
      font-size: 17px;
      font-weight: 400;
+}
+
+.frame{
+     margin: 3% 0%;
 }
 
 .tools {
@@ -922,16 +904,11 @@ ul.conat_info li a:hover {
      opacity: 1;
 }
 
-.co_tru {
-     padding-right: 50px;
-}
 
-.co_tru figure {
-     margin: 0;
-}
-
-.co_tru figure img {
-     width: 100%;
+.co_tru img {
+     width: 50%;
+     height: 50%;
+     border-radius: 10px;
 }
 
 
